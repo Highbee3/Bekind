@@ -44,7 +44,7 @@ export default function Hero({
           className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-4 tracking-wide leading-tight"
         >
           Welcome to{" "}
-          <span className="text-purple-500">Bekind Bar & Lounge</span>
+          <span className="text-red-500">Bekind Bar & Lounge</span>
         </motion.h1>
 
         <motion.p
@@ -75,14 +75,14 @@ export default function Hero({
         >
           <button
             onClick={() => scrollToSection("cocktails")}
-            className="px-8 py-3 bg-purple-600 text-white font-semibold rounded-lg shadow-lg hover:bg-purple-700 transition-all duration-300 hover:scale-105"
+            className="px-8 py-3 bg-red-600 text-white font-semibold rounded-lg shadow-lg hover:bg-red-700 transition-all duration-300 hover:scale-105"
           >
             🍸 View Menu
           </button>
 
           <button
             onClick={() => scrollToSection("contact")}
-            className="px-8 py-3 bg-transparent border border-purple-400 text-purple-400 font-semibold rounded-lg hover:bg-purple-600/20 hover:text-white transition-all duration-300 hover:scale-105"
+            className="px-8 py-3 bg-transparent border border-red-400 text-black-400 font-semibold rounded-lg hover:bg-red-600/20 hover:text-black transition-all duration-300 hover:scale-105"
           >
             Reserve a Table
           </button>
@@ -93,7 +93,7 @@ export default function Hero({
           initial={{ width: 0 }}
           animate={{ width: "6rem" }}
           transition={{ delay: 1, duration: 0.8 }}
-          className="h-0.5 bg-purple-500 mx-auto mt-10"
+          className="h-0.5 bg-red-500 mx-auto mt-10"
         />
       </motion.div>
 

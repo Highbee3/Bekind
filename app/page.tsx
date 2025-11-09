@@ -2,7 +2,7 @@
 "use client";
 
 import Hero from "./components/Hero";
-import CocktailsSection from "./components/CocktailsSection";
+// import CocktailsSection from "./components/CocktailsSection";
 import AboutSection from "./components/AboutSection";
 import Navbar from "./components/Navbar";
 import LiveEvents from "./components/LiveEvents";
@@ -22,9 +22,9 @@ export default function HomePage() {
           <Hero scrollToSection={scrollToSection} />
         </section>
 
-        <section id="cocktails">
+        {/* <section id="cocktails">
           <CocktailsSection scrollToSection={scrollToSection} />
-        </section>
+        </section> */}
 
         <section id="about">
           <AboutSection scrollToSection={scrollToSection} />

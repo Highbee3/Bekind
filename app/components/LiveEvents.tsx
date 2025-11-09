@@ -23,12 +23,12 @@ const events = [
   {
     title: "DJ Evenings",
     desc: "Feel the rhythm with our top local DJs spinning vibrant beats every Saturday night.",
-    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1731196000/dj-night.jpg",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/images_lvpsuk.jpg",
   },
   {
     title: "Themed Parties",
     desc: "From retro to tropical nights — join our themed parties for unforgettable experiences.",
-    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/v1731196040/themed-party.jpg",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/images_fr58dx.jpg",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function LiveEvents({ scrollToSection }: LiveEventsProps) {
       id="LiveEvents"
       className="relative py-20 px-6 md:px-20 bg-linear-to-b from-gray-100 via-white to-gray-50 overflow-hidden"
     >
-      <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/fabric-of-squares.png')] pointer-events-none" />
+      <div className="absolute inset-0 opacity-10 inter-events-none" />
 
       {/* Title */}
       <motion.h2

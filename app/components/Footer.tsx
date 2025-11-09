@@ -51,9 +51,9 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-xl mb-4 text-[#D31C2B]">Contact Us</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
-              <li>123 Mixology Street</li>
-              <li>Victoria Island, Lagos</li>
-              <li className="pt-2">📞 +234 812 345 6789</li>
+              <li>No 4, Sangolana Street, Ori Oke Oloruntosin Area, </li>
+              <li>Off Offatedo Road, Osogbo, Osun State</li>
+              <li className="pt-2">📞  +2348142273759</li>
               <li>✉️ hello@bekindbar.com</li>
             </ul>
           </div>
@@ -87,14 +87,14 @@ export default function Footer() {
           </div>
 
           {/* Location */}
-          <div className="text-right md:text-right">
-            <h4 className="font-serif text-xl mb-4 text-[#D31C2B]">Location</h4>
-            <p className="text-gray-400 text-sm leading-relaxed">
+          <div className="text-right  md:text-right ">
+            <h4 className="font-serif text-xl mb-4 text-[#D31C2B] text-start">Location</h4>
+            <p className="text-gray-400 text-sm text-justify w-full">
               Bekind Bar & Lounge
               <br />
-              123 Mixology Street,
+              No 4, Sangolana Street, Ori Oke Oloruntosin Area,
               <br />
-              Victoria Island, Lagos.
+              Off Offatedo Road, Osogbo, Osun State
             </p>
           </div>
         </div>

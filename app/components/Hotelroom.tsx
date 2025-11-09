@@ -16,22 +16,22 @@ const rooms = [
   {
     title: "Deluxe Suite",
     desc: "Spacious and elegant with modern décor, offering city views, a private balcony, and a king-size bed.",
-    img: "",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/room_1_qgomzm.jpg",
   },
   {
     title: "Executive Room",
     desc: "Designed for comfort and productivity, featuring a large workspace and luxurious furnishings.",
-    img: "",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/room_2_toiezr.jpg",
   },
   {
     title: "Presidential Suite",
     desc: "Ultimate indulgence with a private lounge, jacuzzi, and panoramic skyline views.",
-    img: "",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/es-signature-presidential-suite-1_nc9ojy.jpg",
   },
   {
     title: "Couple’s Paradise",
     desc: "A romantic escape designed for intimacy and relaxation with soft lighting and premium amenities.",
-    img: "",
+    img: "https://res.cloudinary.com/dlzjjxtsd/image/upload/room_3_xnl5tf.jpg",
   },
 ];
 
@@ -121,6 +121,8 @@ export default function Hotelroom({ scrollToSection }: HotelroomProps) {
           ))}
         </Swiper>
       </motion.div>
+
+      
     </section>
   );
 }

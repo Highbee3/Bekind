@@ -9,7 +9,9 @@ interface ContactSectionProps {
   scrollToSection: (id: string) => void;
 }
 
-export default function ContactSection({ scrollToSection }: ContactSectionProps) {
+export default function ContactSection({
+  scrollToSection,
+}: ContactSectionProps) {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -34,8 +36,9 @@ export default function ContactSection({ scrollToSection }: ContactSectionProps)
           Get In Touch
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto text-lg">
-          Whether you want to reserve a table, plan an event, or simply connect —  
-          we’re here to make it happen. Let’s create memorable moments together.
+          Whether you want to reserve a table, plan an event, or simply connect
+          — we’re here to make it happen. Let’s create memorable moments
+          together.
         </p>
       </motion.div>
 
@@ -46,12 +49,14 @@ export default function ContactSection({ scrollToSection }: ContactSectionProps)
       >
         <div className="text-center md:text-left">
           <h3 className="text-xl font-semibold mb-2">📍 Address</h3>
-          <p className="text-gray-400">123 Mixology St, Victoria Island, Lagos</p>
+          <p className="text-gray-400">
+           No 4, Sangolana Street, Ori Oke Oloruntosin Area, <br />Off Offatedo Road, Osogbo, Osun State
+          </p>
         </div>
         <div className="text-center md:text-left">
           <h3 className="text-xl font-semibold mb-2">📞 Phone</h3>
           <p className="text-gray-400 hover:text-red-400 transition">
-            +234 812 345 6789
+            +2348142273759.
           </p>
         </div>
         <div className="text-center md:text-left">
@@ -91,6 +96,21 @@ export default function ContactSection({ scrollToSection }: ContactSectionProps)
           Send Message
         </motion.button>
       </motion.form>
+      {/* 🌍 Hotel Location Map */}
+      <motion.div
+        data-aos="zoom-in"
+        className="relative z-10 mb-16 max-w-5xl mx-auto rounded-xl overflow-hidden shadow-lg"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2836.0755279350774!2d4.510203173129309!3d7.789245207165573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103787d6ae5d3ce5%3A0x635b95d613f8b7d7!2sBe%20Kind%20Bar%20and%20Lounge!5e1!3m2!1sen!2sng!4v1762718587941!5m2!1sen!2sng"
+          width="100%"
+          height="400"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="border-0"
+        ></iframe>
+      </motion.div>
 
       {/* Back to Top */}
       <motion.div

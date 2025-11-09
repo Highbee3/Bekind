@@ -10,7 +10,7 @@ type NavLink = {
 
 const navLinks: NavLink[] = [
   { id: "hero", label: "Home" },
-  { id: "cocktails", label: "Cocktails" },
+  // { id: "cocktails", label: "Cocktails" },
   { id: "about", label: "About" },
   { id: "LiveEvents", label: "Live Events" },
   { id: "hotelrooms", label: "Hotel Room" },
